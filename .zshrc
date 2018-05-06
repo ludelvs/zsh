@@ -20,7 +20,7 @@ source ~/bin/peco_func
 
 export LESS='-g -i -M -r -w -z-4'
 
-[ ! $TMUX ] && tmux
+start-tmux.sh
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
